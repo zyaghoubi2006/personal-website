@@ -467,6 +467,11 @@ button:hover,
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    header ul{
+        flex-wrap : wrap;
+        gap : 12px;
+    }
+    
     .home-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -478,6 +483,7 @@ button:hover,
     .skills-list {
         grid-template-columns: repeat(2, 1fr);
     }
+    
 }
 
 
@@ -500,4 +506,5 @@ button:hover,
         padding: 8px 16px;
     }
 }
+
 
